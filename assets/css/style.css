@@ -1,10 +1,10 @@
 /* Theme Description
 -------------------------------------------------
-
 	  Theme Name: Fashion 
 	  Author:Vikas Tandon
 	  Support: Developed by Vikas Tandon 
 	  Description: This is E-commerce website
+      Git url : https://github.com/VikasTandon
 	  Version: N/A
 	  Date: 3 NOV 2020
      Finished: 15 NOV 2020
@@ -398,10 +398,7 @@ a:hover,
 .footer -menu li a:hover {
     text-decoration: none;
 }
-
-
 /* line 92, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
-
 a,
 button {
     color: #fff;
@@ -5480,12 +5477,6 @@ header .carousel-inner .item img {
     left: 9%;
     bottom: 0;
     z-index: 1;
-}
-@media only screen and (min-width: 316px) and (max-width: 767px) {
-    /* line 105, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
-    .best-product-area .product-man {
-     
-    }
 }
 /* line 82, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
 
@@ -11870,9 +11861,10 @@ input:focus {
     color: #E4D3DF;
 }
 
-@media screen and (min-device-width: 301px) and (max-device-width: 768px) { 
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
     .subscribe_part{
-        width: 521px;
+        width: 100%;
+
     }
 }
 /***************** product list css *******************/
@@ -11883,37 +11875,9 @@ input:focus {
     float: right;
     font-size: 80%;
 }
-
-/* @media screen and (min-device-width: 312px) and (max-device-width: 767px) { 
-    .w3-wide{
-        width: 500px;
-    }
-    .w3-container{
-        width: 476px;
-        right: 56%;
-    }
-    .w3-display-container{
-       left:-4px;
-    }
-} */
-
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
-    .w3-wide{
-        width: 916px;
-    }
-    .w3-container{
-        width: 886px;
-    }
-} */
 .submit_Button {
     width: 26px;
 }
- /* }
-.card-header {
-    width: 320px;
-    height: 60px;
-    border:2px solid red;
-} */
 .filter-group {
     width: 330px;
     align-items: center;
@@ -11968,8 +11932,6 @@ input:focus {
 }
 .text_form {
     width: 13rem;
-    /* border: 2px solid red; */
-    /* margin-right: 9%; */
 }
 .icon-control {
     color: black;
@@ -15763,13 +15725,13 @@ input:focus {
         background-position: 1600px 0;
     }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+@media screen and (min-device-width: 768px) and (max-device-width: 2000px) { 
     .fashion{
-        display: inline-flex !important;
+        display: inline-flex;
         font-size: 2.21em;
     }
   }
-  @media screen and (min-device-width: 580px) and (max-device-width: 2000px) { 
+  @media screen and (min-device-width: 580px) and (max-device-width: 767px) { 
       .fashion{
           display: inline-flex;
       }
@@ -16246,7 +16208,14 @@ width:1001px;
     left: 10%;
 }
 .refer_earn{
+      left:40%;
+      top:50%;
+      margin-bottom: 1%;
+}
+@media screen and (min-width: 268px)and (max-width:1099px) {
+.refer_earn{
+    left:29%;
     top:50%;
-    left: 40%;
-    margin-bottom: 3px;
+    margin-bottom: 1%;
+}
 }
