@@ -3116,14 +3116,13 @@ input:focus::-moz-placeholder {
     -o-transition: .6s;
     transition: .6s;
     margin: 0 auto;
+    border:2px solid red;
 }
-
-
 /* line 601, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
 
 .preloader .preloader-circle {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     position: relative;
     border-style: solid;
     border-width: 3px;
