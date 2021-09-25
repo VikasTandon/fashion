@@ -15711,6 +15711,9 @@ input:focus {
         background-position: 1600px 0;
     }
 }
+.fashion img{
+    margin-top:10%;
+}
 @media screen and (min-device-width: 768px) and (max-device-width: 2000px) { 
     .fashion{
         display: inline-flex;
