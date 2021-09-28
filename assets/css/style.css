@@ -7294,10 +7294,10 @@ p.desc {
     border-color: #f0e9ff;
     outline: 0;
     box-shadow: none;
-    border:2px solid red;
 }
-
-
+.contact_input{
+    width: 400px;
+}
 /* line 694, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_blog_page.scss */
 
 .blog_right_sidebar .search_widget .input-group button {
@@ -15713,6 +15713,7 @@ input:focus {
 }
 .fashion img{
     margin-top:10%;
+    
 }
 @media screen and (min-device-width: 768px) and (max-device-width: 2000px) { 
     .fashion{
@@ -15723,12 +15724,13 @@ input:focus {
         margin-bottom: 4%;
     }
   }
-  @media screen and (min-device-width: 580px) and (max-device-width: 767px) { 
+  @media screen and (min-device-width: 245px) and (max-device-width: 767px) { 
       .fashion{
           display: inline-flex;
       }
       .fashion img{
         margin-top: 4%;
+        /* border:2px solid red; */
     }
     }
 /* =====================logo of fashion all pages end====================== */
@@ -16118,10 +16120,8 @@ hr {
     background: linear-gradient(to right, rgba(145, 238, 226, 1) 0%, rgba(145, 238, 226, 1) 22%, rgba(145, 238, 226, 1) 31%, rgba(145, 238, 226, 1) 39%, rgba(57, 196, 182, 1) 71%, rgba(57, 196, 182, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#91eee2', endColorstr='#39c4b6', GradientType=1);
     margin-bottom: 70px;
-   
 }
-@media screen and (min-width: 300px)and (max-width:767px) {
-    .contact-pageheader {
+@media screen and (min-width: 300px)and (max-width:767px) {.contact-pageheader {
 margin-left: 10% ;
 width:496px;
 height: fit-content;
@@ -16164,12 +16164,14 @@ width:1001px;
     -moz-box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.29);
     box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.29);
     margin-bottom: 9px;
+   
 }
 .contact-section {
     margin-bottom: 40px;
     margin-top: 40px;
     padding-bottom: 30px;
     border-bottom: 1px solid #e4e9e8;
+    
 }
 .contact-section .contact-icon {
     float: left;
